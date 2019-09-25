@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "4030139970",
+    "hash" : "2114957324",
     "id" : "8AEADB6B",
-    "lastKnownWriteTime" : 1569353846,
-    "last_content_update" : 1569353846477,
+    "lastKnownWriteTime" : 1569434117,
+    "last_content_update" : 1569434117057,
     "path" : "E:/workspace/Machine-Learning-A-Z-python-R/data-preprocessing/data-preprocessing-template.R",
     "project_path" : "data-preprocessing/data-preprocessing-template.R",
     "properties" : {
-        "cursorPosition" : "21,31",
-        "scrollLine" : "3"
+        "cursorPosition" : "42,0",
+        "scrollLine" : "20"
     },
     "relative_order" : 1,
     "source_on_save" : false,

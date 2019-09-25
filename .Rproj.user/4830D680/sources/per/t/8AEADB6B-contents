@@ -15,11 +15,28 @@ View(age)
 dataset
 
 salary <- dataset$Salary <- ifelse(is.na(dataset$Salary),
-                             ave(
-                               dataset$Salary,
-                               FUN = function(x)
-                                 mean(x, na.rm = TRUE)
-                             ),
-                             dataset$Salary)
+                                   ave(
+                                     dataset$Salary,
+                                     FUN = function(x)
+                                       mean(x, na.rm = TRUE)
+                                   ),
+                                   dataset$Salary)
+
+dataset
+
+# # Encoding categorical data
+dataset$Country = factor(
+  dataset$Country,
+  levels = c('France', 'Germany', 'Spain'),
+  labels = c(1, 2, 3)
+)
+
+dataset
+
+dataset$Purchased = factor(
+  dataset$Purchased,
+  levels = c("No",'Yes'),
+  labels = c(0,1)
+)
 
 dataset
