@@ -10,7 +10,11 @@ import pandas as pd
 
 
 # load csv file
-dataSet = pd.read_csv("data-preprocessing/Data.csv")
+dataSet = pd.read_csv("./data-preprocessing/Data.csv")
+
+print(dataSet)
+dataSet.columns = ['Country', 'Age', 'Salary', 'Purchased']
+print(dataSet.columns)
 # matrix for independent variables X
 X = dataSet.iloc[:, :-1].values
 # dependent variables vector
